@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú | Sabores Express</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="carrito.html">Carrito</a>
+        <a href="testimonios.html">Testimonios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <h2>Nuestro Menú</h2>
+        <ul>
+            <li>🍔 Hamburguesa - $5 <button onclick="agregarAlCarrito('Hamburguesa', 5)">Agregar</button></li>
+            <li>🍕 Pizza - $8 <button onclick="agregarAlCarrito('Pizza', 8)">Agregar</button></li>
+            <li>🥗 Ensalada - $6 <button onclick="agregarAlCarrito('Ensalada', 6)">Agregar</button></li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sabores Express - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
